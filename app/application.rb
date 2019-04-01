@@ -12,7 +12,7 @@ class Application
       else resp.write 
         resp.status = 400
       end 
-      
+    else 
     end
   resp.finish 
  end 
