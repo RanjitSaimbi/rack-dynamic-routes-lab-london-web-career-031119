@@ -1,4 +1,4 @@
-rquire 'pry'
+
 
 class Application 
   @@items = []
