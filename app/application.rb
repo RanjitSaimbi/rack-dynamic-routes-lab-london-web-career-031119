@@ -1,5 +1,3 @@
-
-
 class Application 
   @@items = []
   
