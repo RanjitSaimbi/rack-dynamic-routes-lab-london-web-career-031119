@@ -6,8 +6,8 @@ class Application
   req = Rack::Request.new(env)
    
     if req.path.match(/items/)
-      item = req.path.split("/items/").last
-      song = @@songs.find{|s| s.title == song_title}
+      item_name = req.path.split("/items/").last
+      item_price = @@items.find{|i| i.title == song_title}
    
   resp.finish 
  end 
